@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-image: radial-gradient(red,blue);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+a{
+    color:blue;
+    text-decoration:none ;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.3rem;
+    letter-spacing:2px;
+}
+a:hover{
+    transition: all 0.3s ease-in-out;
+    color: purple;
+    text-decoration: 1px solid underline;
+
+}
+
+/* img{
+    height:500px;
+    width: 500px;
+    border-radius: 100%;
+    border: 1px solid;
+} */
+.container{
+    width:30%;
+    padding:2rem;
+    position:relative;
+}
+
+
+
+.heading{
+    font-size: xx-large;
+    border-bottom:1px solid ;
+    text-transform: capitalize;
+}
+
+
+/* sign up form style start */
+
+.input-filed-container,.camera-box{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    /* margin-left: 10rem; */
+   
+}
+
+.input-filed-container label{
+    font-size: large;
+    font-weight:initial;
+}
+/* .input-filed-container input{
+  outline: none;
+  border: none;
+  text-indent:5px;
+} */
+
+
+
+/* .camera-box{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+} */
+
+
+.camera-box .col i{
+    color: aliceblue;
+    background-color: aqua;
+    font-size:20px;
+    border: 1px solid;
+    padding: 1rem;
+    border-radius: 100px;
+}
+
+.plus-icon{
+    font-size:x-large;
+    background-color:black;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    padding:1rem;
+    color: white;
+    position: absolute;
+    top:15%;
+    left:51%;
+
+    cursor: pointer;
+
+
+
+}
+
+.google-login-btn,.facebook-login-btn{
+    height: 40px;
+    width: auto;
+    padding:0.5rem;
+    border: 0;
+    outline: none;
+}
+.google-login-btn:hover{
+    transition: all 0.2s ease-in-out;
+    background-color: red;
+    color: white;
+}
+
+.ragister-btn{
+    height: 40px;
+    width: 300px;
+    font-size: x-large;
+    background-color:rgb(19, 13, 39);
+    color: white;
+    border: none;
+    outline: none;
+}
+.ragister-btn:hover{
+
+   transition: all 0.3s ease-in-out;
+
+    background-color:whitesmoke;
+    color: black;
+}
+
+
+
+.facebook-login-btn:hover{
+    transition: all 0.2s ease-in-out;
+    background-color: blue;
+    color: white;
+}
+
+
+
+.error{
+    background-color:white;
+    border: 1px solid navy;
+    z-index:99;
+    height:auto;
+    width:30%;
+    border-radius: 10px;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 10px 18px 2px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center ;
+    overflow-y: auto;
+    display: none;
+}
+.error-icon{
+    font-size:20px;
+    height:100px;
+    width: 100px;
+    padding: 1rem;
+    border-radius: 100px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+.error-message{
+    text-align:center;
+    text-indent:10px;
+    font-size: normal;
+    color: red;
+}
+
+/* sign up form style end */
+
+
+/* otp box caontainer */
+
+.otp-input-box-container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 1rem;
+
+
+}
+.otp-input-box-container input{
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-size:xx-large ;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid;
+}
